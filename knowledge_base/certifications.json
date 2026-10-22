@@ -1,0 +1,256 @@
+{
+  "schema_version": "1.0",
+  "last_reviewed": "2026-10-20",
+  "policy": {
+    "ordering": "free_options_first",
+    "price": "FORBIDDEN",
+    "raw_url": "FORBIDDEN",
+    "link_strategy": "search_query",
+    "note": "Gratis/berbayar dan judul program bisa berubah. Field search_query hanya petunjuk pencarian, bukan jaminan katalog terkini. Verifikasi manual tiap review (last_reviewed)."
+  },
+  "roles": {
+    "Backend Developer": {
+      "free_options": [
+        {
+          "id": "fcc-relational-database",
+          "provider": "FreeCodeCamp",
+          "title": "Relational Database Certification",
+          "level": "beginner",
+          "skills": ["sql", "postgresql", "git", "linux-cli"],
+          "prerequisite_skills": [],
+          "search_query": "freeCodeCamp Relational Database certification"
+        },
+        {
+          "id": "fcc-backend-apis",
+          "provider": "FreeCodeCamp",
+          "title": "Back End Development and APIs Certification",
+          "level": "beginner",
+          "skills": ["rest-api", "http", "backend-basics"],
+          "prerequisite_skills": ["javascript-or-python-basics"],
+          "search_query": "freeCodeCamp Back End Development and APIs certification"
+        },
+        {
+          "id": "cisco-linux-essentials",
+          "provider": "Cisco Networking Academy",
+          "title": "Linux Essentials (Cisco Networking Academy)",
+          "level": "beginner",
+          "skills": ["linux-cli", "os-basics"],
+          "prerequisite_skills": [],
+          "search_query": "Cisco Networking Academy Linux Essentials course"
+        },
+        {
+          "id": "gcp-badge-cloud-fundamentals",
+          "provider": "Google Cloud Skills Boost",
+          "title": "Google Cloud Skill Badge (Cloud Fundamentals)",
+          "level": "beginner",
+          "skills": ["cloud-fundamentals"],
+          "prerequisite_skills": [],
+          "search_query": "Google Cloud Skills Boost skill badge cloud fundamentals"
+        },
+        {
+          "id": "msft-applied-skills-azure-app",
+          "provider": "Microsoft Applied Skills",
+          "title": "Microsoft Applied Skills (Azure app / API track)",
+          "level": "intermediate",
+          "skills": ["cloud-fundamentals", "rest-api"],
+          "prerequisite_skills": ["rest-api"],
+          "search_query": "Microsoft Applied Skills Azure app development API"
+        }
+      ],
+      "paid_options": [
+        {
+          "id": "aws-developer-associate",
+          "provider": "AWS",
+          "title": "AWS Certified Developer - Associate",
+          "level": "intermediate",
+          "skills": ["cloud-fundamentals", "ci-cd", "rest-api"],
+          "prerequisite_skills": ["rest-api", "cloud-fundamentals"],
+          "search_query": "AWS Certified Developer Associate exam guide"
+        },
+        {
+          "id": "oracle-database-sql",
+          "provider": "Oracle",
+          "title": "Oracle Database SQL certification",
+          "level": "intermediate",
+          "skills": ["sql", "database-design"],
+          "prerequisite_skills": ["sql"],
+          "search_query": "Oracle Database SQL certification exam"
+        },
+        {
+          "id": "comptia-linux-plus",
+          "provider": "CompTIA",
+          "title": "CompTIA Linux+",
+          "level": "intermediate",
+          "skills": ["linux-cli", "os-administration"],
+          "prerequisite_skills": ["linux-cli"],
+          "search_query": "CompTIA Linux+ certification exam objectives"
+        }
+      ]
+    },
+    "Data Scientist": {
+      "free_options": [
+        {
+          "id": "kaggle-python-pandas",
+          "provider": "Kaggle",
+          "title": "Kaggle Learn: Python + Pandas",
+          "level": "beginner",
+          "skills": ["python", "data-analysis"],
+          "prerequisite_skills": [],
+          "search_query": "Kaggle Learn Python Pandas course certificate"
+        },
+        {
+          "id": "kaggle-intro-ml",
+          "provider": "Kaggle",
+          "title": "Kaggle Learn: Intro to Machine Learning",
+          "level": "beginner",
+          "skills": ["machine-learning", "model-validation"],
+          "prerequisite_skills": ["python", "data-analysis"],
+          "search_query": "Kaggle Learn Intro to Machine Learning course"
+        },
+        {
+          "id": "fcc-data-analysis-python",
+          "provider": "FreeCodeCamp",
+          "title": "Data Analysis with Python Certification",
+          "level": "beginner",
+          "skills": ["python", "data-analysis", "statistics", "data-visualization"],
+          "prerequisite_skills": [],
+          "search_query": "freeCodeCamp Data Analysis with Python certification"
+        },
+        {
+          "id": "fcc-ml-python",
+          "provider": "FreeCodeCamp",
+          "title": "Machine Learning with Python Certification",
+          "level": "intermediate",
+          "skills": ["machine-learning", "python"],
+          "prerequisite_skills": ["python", "data-analysis", "statistics"],
+          "search_query": "freeCodeCamp Machine Learning with Python certification"
+        },
+        {
+          "id": "gcp-badge-data-ml",
+          "provider": "Google Cloud Skills Boost",
+          "title": "Google Cloud Skill Badge (Data / ML track)",
+          "level": "intermediate",
+          "skills": ["cloud-fundamentals", "sql", "machine-learning"],
+          "prerequisite_skills": ["sql"],
+          "search_query": "Google Cloud Skills Boost skill badge BigQuery machine learning"
+        },
+        {
+          "id": "msft-applied-skills-data",
+          "provider": "Microsoft Applied Skills",
+          "title": "Microsoft Applied Skills (Data / AI track)",
+          "level": "intermediate",
+          "skills": ["data-analysis", "machine-learning"],
+          "prerequisite_skills": ["python"],
+          "search_query": "Microsoft Applied Skills data science machine learning"
+        }
+      ],
+      "paid_options": [
+        {
+          "id": "aws-ml-engineer-associate",
+          "provider": "AWS",
+          "title": "AWS Certified Machine Learning Engineer - Associate",
+          "level": "intermediate",
+          "skills": ["machine-learning", "cloud-fundamentals", "mlops-basics"],
+          "prerequisite_skills": ["machine-learning", "python"],
+          "search_query": "AWS Certified Machine Learning Engineer Associate exam guide"
+        },
+        {
+          "id": "comptia-data-plus",
+          "provider": "CompTIA",
+          "title": "CompTIA Data+",
+          "level": "beginner",
+          "skills": ["data-analysis", "data-visualization", "data-governance"],
+          "prerequisite_skills": [],
+          "search_query": "CompTIA Data+ certification exam objectives"
+        },
+        {
+          "id": "oracle-database-sql-ds",
+          "provider": "Oracle",
+          "title": "Oracle Database SQL certification",
+          "level": "intermediate",
+          "skills": ["sql", "database-design"],
+          "prerequisite_skills": ["sql"],
+          "search_query": "Oracle Database SQL certification exam"
+        }
+      ]
+    },
+    "DevOps Engineer": {
+      "free_options": [
+        {
+          "id": "cisco-linux-essentials-devops",
+          "provider": "Cisco Networking Academy",
+          "title": "Linux Essentials (Cisco Networking Academy)",
+          "level": "beginner",
+          "skills": ["linux-cli", "os-basics"],
+          "prerequisite_skills": [],
+          "search_query": "Cisco Networking Academy Linux Essentials course"
+        },
+        {
+          "id": "cisco-networking-essentials",
+          "provider": "Cisco Networking Academy",
+          "title": "Networking Essentials (Cisco Networking Academy)",
+          "level": "beginner",
+          "skills": ["networking", "tcp-ip", "dns"],
+          "prerequisite_skills": [],
+          "search_query": "Cisco Networking Academy Networking Essentials course"
+        },
+        {
+          "id": "gcp-badge-cloud-infra",
+          "provider": "Google Cloud Skills Boost",
+          "title": "Google Cloud Skill Badge (Infrastructure / Kubernetes track)",
+          "level": "intermediate",
+          "skills": ["cloud-fundamentals", "docker", "kubernetes"],
+          "prerequisite_skills": ["linux-cli", "docker"],
+          "search_query": "Google Cloud Skills Boost skill badge Kubernetes infrastructure"
+        },
+        {
+          "id": "msft-applied-skills-devops",
+          "provider": "Microsoft Applied Skills",
+          "title": "Microsoft Applied Skills (DevOps / Containers track)",
+          "level": "intermediate",
+          "skills": ["ci-cd", "docker", "cloud-fundamentals"],
+          "prerequisite_skills": ["git", "linux-cli"],
+          "search_query": "Microsoft Applied Skills DevOps containers CI/CD"
+        }
+      ],
+      "paid_options": [
+        {
+          "id": "cka",
+          "provider": "CNCF / Linux Foundation",
+          "title": "Certified Kubernetes Administrator (CKA)",
+          "level": "advanced",
+          "skills": ["kubernetes", "cluster-administration"],
+          "prerequisite_skills": ["docker", "linux-cli", "networking"],
+          "search_query": "Certified Kubernetes Administrator CKA exam curriculum"
+        },
+        {
+          "id": "aws-solutions-architect-associate",
+          "provider": "AWS",
+          "title": "AWS Certified Solutions Architect - Associate",
+          "level": "intermediate",
+          "skills": ["cloud-fundamentals", "cloud-architecture", "networking"],
+          "prerequisite_skills": ["cloud-fundamentals", "networking"],
+          "search_query": "AWS Certified Solutions Architect Associate exam guide"
+        },
+        {
+          "id": "comptia-linux-plus-devops",
+          "provider": "CompTIA",
+          "title": "CompTIA Linux+",
+          "level": "intermediate",
+          "skills": ["linux-cli", "os-administration"],
+          "prerequisite_skills": ["linux-cli"],
+          "search_query": "CompTIA Linux+ certification exam objectives"
+        },
+        {
+          "id": "oracle-oci-foundations",
+          "provider": "Oracle",
+          "title": "Oracle Cloud Infrastructure Foundations",
+          "level": "beginner",
+          "skills": ["cloud-fundamentals"],
+          "prerequisite_skills": [],
+          "search_query": "Oracle Cloud Infrastructure Foundations Associate certification"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,50 @@
+# ── Secrets (JANGAN PERNAH COMMIT) ───────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+service-account*.json
+credentials*.json
+
+# ── Database / Docker volume lokal ───────────────────────────
+pgdata/
+postgres-data/
+*.sql.gz
+*.dump
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ── Node / Frontend ──────────────────────────────────────────
+node_modules/
+dist/
+build/
+.vite/
+*.local
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── Editor / OS ──────────────────────────────────────────────
+.idea/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+*.swp
+
+# ── Misc ─────────────────────────────────────────────────────
+*.log
+tmp/

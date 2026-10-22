@@ -1,0 +1,19 @@
+# DEV ONLY — otomatis dimuat oleh `docker compose up` di laptop.
+# Hot-reload: ubah file di backend/app → server restart sendiri, tanpa rebuild image.
+# JANGAN dipakai di VM produksi → di VM selalu: docker compose -f docker-compose.yml ...
+
+services:
+  backend-api:
+    command:
+      - uvicorn
+      - app.main:app
+      - --host
+      - 0.0.0.0
+      - --port
+      - "8000"
+      - --reload
+      - --reload-dir
+      - /app/app
+    volumes:
+      - ./backend/app:/app/app:ro
+      - ./knowledge_base:/app/knowledge_base:ro
